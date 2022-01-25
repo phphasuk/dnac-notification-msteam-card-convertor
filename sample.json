@@ -1,0 +1,64 @@
+{
+    "type": "message",
+    "attachments": [
+        {
+            "contentType": "application/vnd.microsoft.card.adaptive",
+            "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+            "version": "1.2",
+            "content": {
+                "type": "AdaptiveCard",
+                "body": [
+                    {
+                        "type": "TextBlock",
+                        "size": "Medium",
+                        "weight": "Bolder",
+                        "text": "DNA Center Event Notification",
+                        "wrap": true
+                    },
+                    {
+                        "type": "FactSet",
+                        "wrap": true,
+                        "facts": [
+                            {
+                                "title": "Instance ID",
+                                "value": "d4905ece-2b38-4395-9ec2-c66856e078cc"
+                            },
+                            {
+                                "title": "Event ID",
+                                "value": "NETWORK-DEVICES-3-210"
+                            },
+                            {
+                                "title": "Event Name",
+                                "value": "Interface Flapping On Network Device"
+                            },
+                            {
+                                "title": "Event Description",
+                                "value": "A port interface is flapping on a switch"
+                            },
+                            {
+                                "title": "Time Stamp",
+                                "value": "2022-01-21 08:48:00.111000"
+                            },
+                            {
+                                "title": "From DNA Center",
+                                "value": "10.122.20.139"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "TextBlock",
+                        "wrap": true,
+                        "text": "- Type: \r- Assurance Issue Details: Switch  Interface  (Interface description: ) is flapping\r- Assurance Issue Priority: \r- Device: \r- Assurance Issue Name: Interface  (Interface description: ) is Flapping on Network Device \r- Assurance Issue Category: \r- Assurance Issue Status: "
+                    }
+                ],
+                "actions": [
+                    {
+                        "type": "Action.OpenUrl",
+                        "title": "View",
+                        "url": ""
+                    }
+                ]
+            }
+        }
+    ]
+}
