@@ -36,7 +36,7 @@ from urllib3.exceptions import InsecureRequestWarning  # for insecure https warn
 
 
 os.environ['TZ'] = 'America/Los_Angeles'  # define the timezone for PST
-time.tzset()  # adjust the timezone, more info https://help.pythonanywhere.com/pages/SettingTheTimezone/
+time.tzset()
 
 urllib3.disable_warnings(InsecureRequestWarning)  # disable insecure https warnings
 
